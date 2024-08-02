@@ -1,0 +1,81 @@
+.sidebar {
+    color: $white;
+    background-color: $black;
+    width: 100%;
+    padding: 1rem;
+    // height: $minHeight;
+    border-radius: $contentsRadius;
+
+    .profil {
+        position: relative;
+        text-align: center;
+
+        img {
+            border-radius: $imagesRadius;
+            box-shadow: 0 0 0 2px $color-1, 0 0 0 4px $color-2, 0 0 0 8px $white;
+        }
+
+        h2 {
+            padding-top: 1.1rem;
+            font-size: 1.2rem;
+            font-family: $font-1;
+            text-transform: capitalize;
+        }
+    }
+
+    .navigation {
+        .active-page {
+            color: tomato;
+            text-decoration: underline $white 3px;
+        }
+
+        ul {
+            li {
+                padding-top: 2rem;
+                padding-bottom: 1.5rem;
+
+                &:hover {
+                    transform: translate(3px, 3px);
+                }
+
+                a {
+                    color: $white;
+
+                    img {
+                        background-color: $white;
+                        border: solid 2px $white;
+                        border-radius: $imagesRadius;
+                    }
+
+                    .accueilLink,
+                    .competencesLink,
+                    .portfolioLink,
+                    .contactLink {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+
+    .social-network {
+        padding-top: 1.5rem;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                img {
+                    width: 85%;
+                }
+            }
+        }
+    }
+
+    .signature {
+        text-align: center;
+        padding-top: 2rem;
+    }
+}

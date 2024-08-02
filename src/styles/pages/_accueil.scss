@@ -1,0 +1,48 @@
+.accueilGlobal {
+    .contenuAccueil {
+        background: linear-gradient(115deg, $black 50%, transparent 100%);
+        width: 100%;
+        margin-left: 1.2rem;
+        margin-top: 2rem;
+        font-family: $font-1;
+        padding-top: 5rem;
+        position: relative;
+
+        &:after {
+            content: "";
+            border-radius: $contentsRadius;
+            position: absolute;
+            top: -0rem;
+            height: 100%;
+            width: 85%;
+            background: url("../../media/bamba2.jpg") no-repeat center/cover;
+            z-index: -1;
+            filter: brightness(30%);
+        }
+
+        h1,
+        h2 {
+            padding-bottom: 3rem;
+            font-size: 2.4rem;
+            padding-left: 3rem;
+        }
+
+        a {
+            font-family: $font-2;
+            color: $white;
+            border: solid 5px $white;
+            border-radius: $contentsRadius;
+            margin-left: 5rem;
+            padding: 1.1rem;
+            background-color: $color-1;
+
+            &:hover {
+                color: $black;
+                font-size: 1.2rem;
+                transition: 0.4s;
+            }
+        }
+
+    }
+
+}

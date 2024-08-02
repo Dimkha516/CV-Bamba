@@ -1,0 +1,11 @@
+{
+  "portofolio": [
+    {
+      "image": "project2.JPG",
+      "icon1": "js.png",
+      "icon2": "react.png",
+      "icon3": "",
+      "id": 1
+    }
+  ]
+}

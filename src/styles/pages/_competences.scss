@@ -1,0 +1,175 @@
+.competencesGlobal {
+    .contenuCompetences {
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-right: -2rem;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .langagesFrameworks {
+            width: 85%;
+            margin: 10px;
+            background-color: $white;
+            padding: 18px;
+            border-radius: $contentsRadius;
+            color: $black;
+            // grid-area: lang;
+
+            .langages {
+                h1 {
+                    color: $color-1;
+                }
+
+                .pourcentagesLangages {
+                    display: flex;
+                    justify-content: space-between;
+
+                    p {
+                        font-size: 0.5rem;
+                    }
+                }
+
+                .js,
+                .css,
+                .python {
+                    margin: 1.2rem 0 1.2rem 0;
+
+                    p {
+                        background-color: rgb(185, 142, 142);
+                        // width: 85%;
+                        height: 1vh;
+                        border-radius: 10%;
+                    }
+                }
+
+                .js {
+                    p {
+                        width: 85%;
+                    }
+                }
+
+                .python {
+                    p {
+                        width: 35%;
+                    }
+                }
+
+            }
+
+            .frameworksBiblio {
+                h1 {
+                    color: $color-1;
+                }
+
+                .pourcentagesFrameBiblios {
+                    display: flex;
+                    justify-content: space-between;
+
+                    p {
+                        font-size: 0.5rem;
+                    }
+                }
+
+                .sass,
+                .react,
+                .redux {
+                    margin: 1.2rem 0 1.2rem 0;
+
+                    p {
+                        background-color: rgb(185, 142, 142);
+                        // width: 85%;
+                        height: 1vh;
+                        border-radius: 10%;
+                    }
+                }
+
+                .react {
+                    p {
+                        width: 40%;
+                    }
+                }
+
+                .sass {
+                    p {
+                        width: 90%;
+                    }
+                }
+
+                .redux {
+                    p {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+
+        .experience {
+            margin: 10px 5px 10px -35px;
+            background-color: $white;
+            padding: 15px;
+            border-radius: $contentsRadius;
+            color: $black;
+
+            .mesExp {
+                .exp1 {
+                    margin-top: 1.5rem;
+
+                    span {
+                        opacity: 75%;
+                    }
+                }
+
+                .exp2 {
+                    margin-top: 1.8rem;
+
+                    span {
+                        opacity: 75%;
+                    }
+                }
+            }
+        }
+
+        .autresCompetences {
+            width: 115%;
+            margin: 10px;
+            background-color: $white;
+            padding: 15px;
+            border-radius: $contentsRadius;
+            color: $black;
+
+            .groupes {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                .groupe1,
+                .groupe2 {
+                    padding: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .interets {
+        width: 75%;
+        margin-top: 10px;
+        // margin-right: -10px;
+        margin-left: 80px;
+        background-color: $white;
+        padding: 15px;
+        border-radius: $contentsRadius;
+        color: $black;
+
+        .mesInterets {
+
+            .int1,
+            .int2,
+            .int3,
+            .int4 {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

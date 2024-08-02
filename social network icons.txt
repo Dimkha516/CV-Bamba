@@ -1,0 +1,23 @@
+///******** ADD ICON LIBRARY ///********
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.7.0/css/font-
+awesome.min.css">
+
+///******** ADD FONT AWESOME ICONS ///********
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+... 
+
+///******** GOOGEL FONTS IMMPORT ///********
+<style>
+@import url('https://fonts.googleapis.com/css2?
+family=Dosis:wght@200
+&family=Josefin+Sans:wght@100
+&family=Nova+Round&display=swap');
+</style>
+
+
+
